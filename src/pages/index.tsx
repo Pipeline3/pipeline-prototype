@@ -1,1 +1,3 @@
-export const Index = () => "Hello";
+const Index = () => "Hello";
+
+export default Index;
