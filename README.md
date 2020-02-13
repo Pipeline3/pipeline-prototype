@@ -1,1 +1,4 @@
-# pipeline-prototype
+# Pipeline Prototype's workspace
+
+## Requirements
+

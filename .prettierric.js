@@ -1,6 +1,7 @@
 module.exports = {
   printWidth: 80, // 줄 바꿈 길이
   parser: "typescript",
+  semi: true,
   singleQuote: true, // "대신 '를 사용
   useTabs: false, // 탭 대신 스페이스 사용
   tabWidth: 2, // 들여 쓰기 레벨마다 공백 수를 지정
