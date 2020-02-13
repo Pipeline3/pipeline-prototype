@@ -27,6 +27,6 @@
     "sourceMap": true,
     "jsx": "preserve"
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "**/*.mdx"],
   "include": ["src", "next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
