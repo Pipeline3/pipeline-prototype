@@ -5,6 +5,7 @@ const hash = process.env.GIT_HASH;
 
 module.exports = withMDX({
   webpack(config, { buildId, dev, isServer, webpack }) {
+
     if(dev) {
       // Disable minimizer
       config.optimization.minimize = false;
@@ -22,5 +23,6 @@ module.exports = withMDX({
     return config;
   },
   generateBuildId: () => hash,
+  extension: /\.mdx?$/,
   pageExtensions: ['tsx', 'js', 'jsx', 'md', 'mdx']
 });

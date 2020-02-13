@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@mdx-js/loader": "^1.5.5",
-    "@zeit/next-mdx": "^1.2.0",
+    "@next/mdx": "^9.2.1",
     "express": "^4.17.1",
     "next": "^9.2.1",
     "react": "^16.12.0",
