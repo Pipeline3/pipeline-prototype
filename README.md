@@ -8,6 +8,7 @@
 - [FindEBook]() : 내가 찾고 싶은 책이 Ebook으로 나왔는지 알려주는 서비스
 - [RichRich]() : 재테크 정보를 통합으로 공유, 관리하는 재테크 모아모아 부자되자!
 - [Intoring]() : 공인중개와 함께 (셀프)인테리어 멘토 또는 인테리어 업체를 연계해주는 서비스
+- [MyMoney]() : RichRich Project에 붙일 가계부 서비스
 
 ### Common Project
 
