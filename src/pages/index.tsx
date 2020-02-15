@@ -13,13 +13,9 @@ const Index = () => {
 
   const [data] = useFetch(options);
 
-  console.log('index=>', data);
-
   if (!data) return <></>;
 
   return <h1> Hello </h1>;
 };
-
-//https://www.nlotto.co.kr/common.do?method=getLottoNumber&drwNo=${+drwNo}
 
 export default Index;

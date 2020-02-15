@@ -8,10 +8,6 @@ export default function useFetch(options) {
   const [loading, setLoading] = useState<boolean>(false);
 
   const fetchData = async () => {
-    console.log('options=>', options);
-    console.log('data=>', data);
-    console.log('error=>', error);
-    console.log('loading=>', loading);
     setLoading(true);
 
     await requestAPI(options)
