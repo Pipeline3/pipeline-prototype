@@ -10,6 +10,7 @@ export const getLocale = () =>
 export const setStorage = (key: string, value: string) =>
   window.localStorage.setItem(key, value);
 
-export const getStorage = key => window.localStorage.getItem(key);
+export const getStorage = (key: string) => window.localStorage.getItem(key);
 
-export const removeStorage = key => window.localStorage.removeItem(key);
+export const removeStorage = (key: string) =>
+  window.localStorage.removeItem(key);
