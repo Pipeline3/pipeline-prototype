@@ -60,7 +60,7 @@ export const getPosition = (el: HTMLElement): { top: number, left:number} => {
     return { top: y, left: x };
 }
 
-export const getStyle = (el: HTMLElement, cssRule: string) => {
+export const getStyle = (el: HTMLElement, cssRule: string): string => {
     let value = '';
 
     if (el) {
@@ -79,7 +79,7 @@ export const getStyle = (el: HTMLElement, cssRule: string) => {
     return value;
 }
 
-export const clearStyle = (el: HTMLElement) => {
+export const clearStyle = (el: HTMLElement): void => {
     el && el.setAttribute('style', '');
 };
 
